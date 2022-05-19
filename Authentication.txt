@@ -1,0 +1,23 @@
+AUTHENTICATION
+    What is it?
+        The process of verifying who a particular user is.
+        We tipically authenticate whith a username/password combo, but we can also use 
+        security question, facial recognition, etc.
+
+AUTHORIZATION
+    What is it?
+        verifying what a specific user has access to.
+        Generally, we authorize after a user has been authenticated. -"Now tha we know you 
+        are here, here is what you are allowed to do and NOT allowed to do".
+
+
+RULE #1
+NEVER STORE PASSWORDS
+
+
+HASING 
+    Rather than storing a password in the database, we run the password through a hashing 
+    function first and then store the result in the database.
+    Hasahing functions are functions that map input data of some arbritary size to 
+    fixed-size output values.
+    

@@ -1,0 +1,11 @@
+CRIPTOGRAPHIC HASH FUNCTIONS
+        1.One- way function which is infeasible to invert
+        2.Small change input yields large change in the output 
+        3.Deterministic-same input yields same output
+        4.Unlikely to find 2 outputs wiht same values
+        5.Password Hash Functions are deliberately SLOW
+
+PASSWORD SALTS
+
+
+BCRYPT
